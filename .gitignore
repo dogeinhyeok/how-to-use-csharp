@@ -1,0 +1,31 @@
+# 모든 프로젝트의 bin/과 obj/ 디렉토리 무시
+**/bin/
+**/obj/
+
+# .NET 관련
+*.user
+*.suo
+*.cache
+*.nupkg
+*.swp
+*.pdb
+*.vs/
+.vscode/
+TestResults/
+
+# IDE 설정
+.idea/
+*.sln.iml
+
+# 로그 및 임시 파일
+*.log
+*.tmp
+*.temp
+
+# NuGet
+.nuget/
+packages/
+
+# 기타
+.DS_Store
+Thumbs.db
